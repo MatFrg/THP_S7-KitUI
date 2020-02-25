@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comment</title>
+</head>
+<body>
+
+<div class="section"> <h1>Comment</h1></div>
+  <div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src= <%= asset_path('hibou.jpg')%>; alt="" class="mr-2 rounded">
+    <strong class="mr-auto">Woot Woot</strong>
+    <small>Le 25/02/2020 à 23h36</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    <textarea class="form-control">Leave your comment. </textarea>
+  </div>
+  <div class="toasts-footer p-2">
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+</div>
+
+<div class="section"> <h1>Comment list</h1></div>
+
+<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src= <%= asset_path('hibou.jpg')%>; alt="" class="mr-2 rounded">
+    <strong class="mr-auto">Woot Woot</strong>
+    <small>Le 25/02/2020 à 23h36</small>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is my message.
+  </div>
+</div>
+
+<div class="toast show" role="alert" aria-live="assertive" aria-atomic="true">
+  <div class="toast-header">
+    <img src= <%= asset_path('goat.jpg')%>; alt="" class="mr-2 rounded">
+    <strong class="mr-auto">Mr Seguin</strong>
+    <small>Le 25/02/2020 à 23h40</small>
+  </div>
+  <div class="toast-body">
+    And this is mine.
+  </div>
+
+</body>
+</html>
+
+
