@@ -5,6 +5,6 @@ Pour lancer le programme:
   - bundle install
   - rails server
   
-  http://localhost:3000/index
+  http://localhost:3000/static/index
 
  
